@@ -1,0 +1,25 @@
+.footerbottom{
+    width: 100%;
+    background: var(--black1);
+}
+.footerbottom_main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.footerbottom_main_p{
+    color: var(--gray1);
+    font-size: 14px;
+}
+.footerbottom_main_p_span{
+    color: var(--white);
+}
+.footerbottom_main_p_link{
+    color: var(--gray1);
+    text-decoration: underline;
+}
+.footerbottom_main_p_link:hover{
+    color: var(--link);
+}

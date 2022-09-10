@@ -1,0 +1,20 @@
+.elon{
+    width: 100%;
+    background: var(--text);
+}
+.elon_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.elon_main_p{
+    color: var(--white);
+}
+.elon_main_p1{
+    color: var(--white);
+    margin-top: 20px;
+}

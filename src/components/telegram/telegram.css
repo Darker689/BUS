@@ -1,0 +1,57 @@
+
+.teleg{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--link);
+    border-radius: 50%;
+    position: relative;
+    z-index: 10000;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    color: var(--white);
+    font-size: 30px;
+}
+.teleg::after{
+    content: '';
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    background: var(--link);
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    animation: shadow 1s linear infinite;
+    border-radius: 50%;
+}
+.teleg::before{
+    content: '';
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    border: 2px solid var(--link);
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    animation: shadow 2s linear infinite;
+    border-radius: 50%;
+}
+@keyframes shadow{
+    0%{
+        width: 80px;
+        height: 80px;
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        width: 180px;
+        height: 180px;
+    }
+}

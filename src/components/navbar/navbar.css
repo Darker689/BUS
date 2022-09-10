@@ -1,0 +1,25 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background: var(--white);
+    z-index: 100000000;
+}
+.navbar_main{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+}
+@media screen and (max-width: 768px) {
+    .navbar_main_h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 444px) {
+    .navbar_main_h1{
+        font-size: 20px;
+    }
+}
