@@ -12,6 +12,7 @@
 .footerbottom_main_p{
     color: var(--gray1);
     font-size: 14px;
+    text-align: center;
 }
 .footerbottom_main_p_span{
     color: var(--white);

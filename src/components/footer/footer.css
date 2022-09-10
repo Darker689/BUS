@@ -48,3 +48,9 @@
 .footer_main_div1_icon:hover{
     border: none;
 }
+@media screen and (max-width: 768px) {
+    .footer_main{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
