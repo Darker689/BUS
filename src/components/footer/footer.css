@@ -4,7 +4,7 @@
 }
 .footer_main{
     height: 300px;
-    padding-top: 100px;
+    padding-top: 90px;
     padding-bottom: 70px;
     width: 100%;
     display: flex;
@@ -52,5 +52,6 @@
     .footer_main{
         flex-direction: column;
         row-gap: 20px;
+        padding-top: 70px;
     }
 }
