@@ -7,7 +7,7 @@ import './telegram.css'
 const Telegram = () => {
   return (
     <div className="telegram">
-        <a href='https://web.telegram.org/k/' className='teleg'>
+        <a href='https://t.me/toshkent_rossiya_avtobus' className='teleg'>
             <FaTelegramPlane/>
         </a>
     </div>

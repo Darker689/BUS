@@ -51,7 +51,7 @@ const Hero = () => {
                 ))
               }
             </div>
-            <p className='hero_main_p1'>БРОН КИЛИШ Уз <a href="tel: +998906179743" className='hero_main_p1_link'>+998 90 617-97-43</a>, Россия <a href="tel: +79652129884" className='hero_main_p1_link'>+79652129884</a></p>
+            <p className='hero_main_p1'>БРОН КИЛИШ Уз <a href="tel: +998940880555" className='hero_main_p1_link'>+998940880555</a>, Россия <a href="tel: +79138657464" className='hero_main_p1_link'>+79138657464</a></p>
           </div>
         </div>
     </div>
