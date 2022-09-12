@@ -3,7 +3,6 @@ import React from 'react'
 import './footer.css'
 // Icon
 import {IoLogoInstagram, IoLogoYoutube} from 'react-icons/io'
-import {SiOdnoklassniki} from 'react-icons/si'
 
 const Footer = () => {
   return (
@@ -21,9 +20,6 @@ const Footer = () => {
               </a>
               <a href='https://www.youtube.com/channel/UChGHya7Mun5GU9bB6Vf4zGg' className="footer_main_div1_icon">
                 <IoLogoYoutube/>
-              </a>
-              <a href='https://ok.ru/' className="footer_main_div1_icon">
-                <SiOdnoklassniki/>
               </a>
             </div>
           </div>
